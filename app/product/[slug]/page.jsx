@@ -1,6 +1,6 @@
 import React from 'react';
-import Wrapper from '@/components/Wrapper';
-import ProductDetailsCarousel from '@/components/ProductDetailsCarousel';
+import Wrapper from '../../../components/Wrapper';
+import ProductDetailsCarousel from '../../../components/ProductDetailsCarousel';
 const ProductDetails = () => {
   return (
     <div className='w-full md:py-20'>

@@ -1,6 +1,6 @@
 import React from 'react';
-import Wrapper from '@/components/Wrapper';
-import CartItem from '@/components/CartItem';
+import Wrapper from '../../components/Wrapper';
+import CartItem from '../../components/CartItem';
 
 const Cart = () => {
   return (

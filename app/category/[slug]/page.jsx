@@ -1,6 +1,6 @@
 import React from 'react';
-import ProductCard from '@/components/ProductCard';
-import Wrapper from '@/components/Wrapper';
+import ProductCard from '../../../components/ProductCard';
+import Wrapper from '../../../components/Wrapper';
 
 const Category = ({ params }) => {
   return (
