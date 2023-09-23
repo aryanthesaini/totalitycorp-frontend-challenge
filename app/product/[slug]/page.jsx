@@ -1,6 +1,13 @@
+'use client';
+
 import React from 'react';
 import Wrapper from '../../../components/Wrapper';
 import ProductDetailsCarousel from '../../../components/ProductDetailsCarousel';
+
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+import { useStateContext } from '../../../lib/context';
+
 const ProductDetails = () => {
   return (
     <div className='w-full md:py-20'>
@@ -37,7 +44,7 @@ const ProductDetails = () => {
             </div>
 
             <div className='grid grid-cols-3 gap-2'>
-              <div className='border rounded-md text-center py-3 font-medium hover:border-black cursor-pointer'>
+              <div className='border rounded-md text-center py-3 font-medium hover:border-black cursor-pointer bg-black text-white'>
                 UK 6
               </div>
               <div className='border rounded-md text-center py-3 font-medium hover:border-black cursor-pointer'>
@@ -54,7 +61,12 @@ const ProductDetails = () => {
               </div>
             </div>
             <div className='text-red-600 mt-3'>Size selection is required</div>
-            <button className='w-full py-4 rounded-full bg-black text-white text-lg font-medium transition-transform active:scale-95 mb-7 hover:opacity-75 mt-5'>
+            <ToastContainer />
+            <button
+              className='w-full py-4 rounded-full bg-black text-white text-lg font-medium transition-transform active:scale-95 mb-7 hover:opacity-75 mt-5'
+              onClick={() => {
+                toast.success('Item added to your cart');
+              }}>
               Add To Cart
             </button>
 
