@@ -12,7 +12,7 @@ const Category = ({ params }) => {
       `/api/products?populate=*&[filters][categories][slug][$eq]=${params.slug}`
     );
     setProducts(data);
-    console.log(products);
+    // console.log(products);
   };
   useEffect(() => {
     getProducts();

@@ -56,7 +56,7 @@ const CartItem = ({ data }) => {
                       key={i}
                       value={item.size}
                       disabled={!item.enabled ? true : false}
-                      selected={data.selectedSize === item.size}>
+                      defaultValue={data.selectedSize === item.size}>
                       {item.size}
                     </option>
                   );
@@ -70,7 +70,10 @@ const CartItem = ({ data }) => {
                 className='hover:text-black'>
                 {Array.from({ length: 10 }, (_, i) => i + 1).map((q, i) => {
                   return (
-                    <option key={i} value={q} selected={data.quantity === q}>
+                    <option
+                      key={i}
+                      value={q}
+                      defaultValue={data.quantity === q}>
                       {q}
                     </option>
                   );
