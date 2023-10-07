@@ -29,12 +29,15 @@ export default function Home() {
           <Wrapper>
             <div className='text-center max-w-[800px] mx-auto my-[50px] md:my-[80px]'>
               <div className='text-[28px] md:text-[34px] mb-5 font-semibold leading-tight'>
-                Totality Corp Assignment
+                Shoe Store for all your needs
               </div>
 
               <div className='text-md md:text-xl'>
-                This is an assignment that I am supposed to finish sooner than
-                ever so who cares what I write here??
+                You can shop the best shoes in town, at the most reliable price
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sint,
+                velit. Vel pariatur inventore hic odit, commodi modi. Cum
+                aspernatur esse laudantium nihil quidem suscipit vel aperiam
+                dolore rerum. Voluptatibus, excepturi.
               </div>
             </div>
 

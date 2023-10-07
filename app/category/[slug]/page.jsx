@@ -4,7 +4,6 @@ import React, { useEffect, useState } from 'react';
 import ProductCard from '../../../components/ProductCard';
 import Wrapper from '../../../components/Wrapper';
 import { fetchData } from '../../../utils/api';
-
 const Category = ({ params }) => {
   const [products, setProducts] = useState(null);
   const getProducts = async () => {
