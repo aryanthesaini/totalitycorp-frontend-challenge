@@ -1,4 +1,4 @@
-## Live Preview (https://totalitycorp-frontend-challenge-liard-ten.vercel.app/)[https://totalitycorp-frontend-challenge-liard-ten.vercel.app/]
+## [Live Preview](https://totalitycorp-frontend-challenge-liard-ten.vercel.app/)
 
 This project was made using NextJS
 
